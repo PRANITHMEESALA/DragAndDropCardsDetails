@@ -1,0 +1,24 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.cardContainer>div{
+    margin-bottom: 10px;
+}
+.card{
+    width: 230px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    border-radius: 14px;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px 1px black;
+
+}
+.cardType{
+    color: red;
+    font-weight: bolder;
+}
